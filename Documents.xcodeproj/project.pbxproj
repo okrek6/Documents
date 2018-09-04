@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E2367912213F1C5400F040E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367911213F1C5400F040E1 /* AppDelegate.swift */; };
-		E2367914213F1C5400F040E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367913213F1C5400F040E1 /* ViewController.swift */; };
 		E2367917213F1C5400F040E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2367915213F1C5400F040E1 /* Main.storyboard */; };
 		E236791A213F1C5400F040E1 /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2367918213F1C5400F040E1 /* Documents.xcdatamodeld */; };
 		E236791C213F1C5600F040E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E236791B213F1C5600F040E1 /* Assets.xcassets */; };
 		E236791F213F1C5600F040E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E236791D213F1C5600F040E1 /* LaunchScreen.storyboard */; };
 		E236792A213F1C5600F040E1 /* DocumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367929213F1C5600F040E1 /* DocumentsTests.swift */; };
 		E2367935213F1C5600F040E1 /* DocumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367934213F1C5600F040E1 /* DocumentsUITests.swift */; };
+		E2367945213F3B3B00F040E1 /* DocumentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E236790E213F1C5400F040E1 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2367911213F1C5400F040E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2367913213F1C5400F040E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2367916213F1C5400F040E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2367919213F1C5400F040E1 /* Documents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents.xcdatamodel; sourceTree = "<group>"; };
 		E236791B213F1C5600F040E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		E2367930213F1C5600F040E1 /* DocumentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2367934213F1C5600F040E1 /* DocumentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsUITests.swift; sourceTree = "<group>"; };
 		E2367936213F1C5600F040E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E2367911213F1C5400F040E1 /* AppDelegate.swift */,
-				E2367913213F1C5400F040E1 /* ViewController.swift */,
 				E2367915213F1C5400F040E1 /* Main.storyboard */,
+				E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */,
 				E236791B213F1C5600F040E1 /* Assets.xcassets */,
 				E236791D213F1C5600F040E1 /* LaunchScreen.storyboard */,
 				E2367920213F1C5600F040E1 /* Info.plist */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2367914213F1C5400F040E1 /* ViewController.swift in Sources */,
+				E2367945213F3B3B00F040E1 /* DocumentsTableViewController.swift in Sources */,
 				E236791A213F1C5400F040E1 /* Documents.xcdatamodeld in Sources */,
 				E2367912213F1C5400F040E1 /* AppDelegate.swift in Sources */,
 			);
