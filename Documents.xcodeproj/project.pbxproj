@@ -15,6 +15,10 @@
 		E236792A213F1C5600F040E1 /* DocumentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367929213F1C5600F040E1 /* DocumentsTests.swift */; };
 		E2367935213F1C5600F040E1 /* DocumentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367934213F1C5600F040E1 /* DocumentsUITests.swift */; };
 		E2367945213F3B3B00F040E1 /* DocumentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */; };
+		E24B624521589A6A00D21B02 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B624421589A6A00D21B02 /* CategoriesViewController.swift */; };
+		E24B624721589AC400D21B02 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B624621589AC400D21B02 /* DocumentsViewController.swift */; };
+		E24B624921589AE800D21B02 /* NewCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B624821589AE800D21B02 /* NewCategoryViewController.swift */; };
+		E24B624B21589B0600D21B02 /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B624A21589B0600D21B02 /* NewDocumentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E2367934213F1C5600F040E1 /* DocumentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsUITests.swift; sourceTree = "<group>"; };
 		E2367936213F1C5600F040E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTableViewController.swift; sourceTree = "<group>"; };
+		E24B624421589A6A00D21B02 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		E24B624621589AC400D21B02 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
+		E24B624821589AE800D21B02 /* NewCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewController.swift; sourceTree = "<group>"; };
+		E24B624A21589B0600D21B02 /* NewDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		E2367910213F1C5400F040E1 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				E24B624421589A6A00D21B02 /* CategoriesViewController.swift */,
+				E24B624821589AE800D21B02 /* NewCategoryViewController.swift */,
+				E24B624621589AC400D21B02 /* DocumentsViewController.swift */,
+				E24B624A21589B0600D21B02 /* NewDocumentViewController.swift */,
 				E2367911213F1C5400F040E1 /* AppDelegate.swift */,
 				E2367915213F1C5400F040E1 /* Main.storyboard */,
-				E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */,
-				E236791B213F1C5600F040E1 /* Assets.xcassets */,
 				E236791D213F1C5600F040E1 /* LaunchScreen.storyboard */,
 				E2367920213F1C5600F040E1 /* Info.plist */,
 				E2367918213F1C5400F040E1 /* Documents.xcdatamodeld */,
+				E236791B213F1C5600F040E1 /* Assets.xcassets */,
+				E2367944213F3B3B00F040E1 /* DocumentsTableViewController.swift */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -196,13 +208,16 @@
 				TargetAttributes = {
 					E236790D213F1C5400F040E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					E2367924213F1C5600F040E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = E236790D213F1C5400F040E1;
 					};
 					E236792F213F1C5600F040E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = E236790D213F1C5400F040E1;
 					};
 				};
@@ -259,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24B624721589AC400D21B02 /* DocumentsViewController.swift in Sources */,
+				E24B624921589AE800D21B02 /* NewCategoryViewController.swift in Sources */,
 				E2367945213F3B3B00F040E1 /* DocumentsTableViewController.swift in Sources */,
 				E236791A213F1C5400F040E1 /* Documents.xcdatamodeld in Sources */,
+				E24B624521589A6A00D21B02 /* CategoriesViewController.swift in Sources */,
+				E24B624B21589B0600D21B02 /* NewDocumentViewController.swift in Sources */,
 				E2367912213F1C5400F040E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.Documents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,7 +480,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.Documents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -481,7 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.DocumentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Documents.app/Documents";
 			};
@@ -502,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.DocumentsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Documents.app/Documents";
 			};
@@ -522,7 +541,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.DocumentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Documents;
 			};
@@ -542,7 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = online.edu.missouri.DocumentsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Documents;
 			};
