@@ -10,6 +10,9 @@ import UIKit
 
 class NewCategoryViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
