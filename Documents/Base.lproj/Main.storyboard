@@ -72,7 +72,7 @@
         <!--New Category-->
         <scene sceneID="Pfk-d6-wmO">
             <objects>
-                <viewController id="EBh-3m-fyl" sceneMemberID="viewController">
+                <viewController id="EBh-3m-fyl" customClass="NewCategoryViewController" customModule="Documents" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t8s-fe-2f8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +104,9 @@
                     <navigationItem key="navigationItem" title="New Category" id="tJa-Ty-LlA">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="UFT-Qy-50q"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="titleTextField" destination="Rdq-Um-F1W" id="tUf-xZ-Hdw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VQ-KI-qJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
