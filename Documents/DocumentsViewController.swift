@@ -37,7 +37,7 @@ extension DocumentsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = documentsTableView.dequeueReusableCell(withIdentifier: "documnetCell", for: indexPath)
+        let cell = documentsTableView.dequeueReusableCell(withIdentifier: "documentCell", for: indexPath)
         
         return cell
     }
@@ -45,6 +45,6 @@ extension DocumentsViewController: UITableViewDataSource {
 
 extension DocumentsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showExpense", sender: self)
+        performSegue(withIdentifier: "showDocument", sender: self)
     }
 }
